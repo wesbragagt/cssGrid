@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>CSS Grid</title>
+    <style>
+        .wrapper {
+            display: grid;
+            grid-template-columns: 70% 30%;
+            /* grid-column-gap: 1em;
+            grid-row-gap: 1em; */
+
+            grid-gap: 1em;
+        }
+        .wrapper > div {
+            background: #eee;
+            padding: 1em;
+
+        }
+
+        .wrapper > div:nth-child(odd){
+            background: #ddd;
+        }
+    
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <div>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste voluptas minus modi cum corporis voluptatum sit quos, aliquam ipsa adipisci debitis eveniet porro pariatur rem aut. Ullam ea cumque nobis laborum, itaque excepturi quaerat, quae perferendis ab, eos dignissimos? Voluptatem explicabo fugit perspiciatis molestias, odio expedita ea. Earum saepe dolor culpa unde quae optio vero! Pariatur asperiores aliquam quo saepe atque veritatis animi minima culpa? Perferendis quas mollitia in tempore veritatis beatae iusto? Repudiandae ipsa dolores architecto, deserunt ipsam assumenda.
+        </div>
+        <div>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Soluta tempora alias ducimus sequi quas obcaecati id cum iste, facilis, ex enim necessitatibus? Officiis enim est aspernatur nulla ea provident a!
+        </div>
+        <div>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste voluptas minus modi cum corporis voluptatum sit quos, aliquam ipsa adipisci debitis eveniet porro pariatur rem aut. Ullam ea cumque nobis laborum, itaque excepturi quaerat, quae perferendis ab, eos dignissimos? Voluptatem explicabo fugit perspiciatis molestias, odio expedita ea. Earum saepe dolor culpa unde quae optio vero! Pariatur asperiores aliquam quo saepe atque veritatis animi minima culpa? Perferendis quas mollitia in tempore veritatis beatae iusto? Repudiandae ipsa dolores architecto, deserunt ipsam assumenda.
+        </div>
+        <div>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Soluta tempora alias ducimus sequi quas obcaecati id cum iste, facilis, ex enim necessitatibus? Officiis enim est aspernatur nulla ea provident a!
+        </div>
+        
+    </div>
+</body>
+</html>
